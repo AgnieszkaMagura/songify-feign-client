@@ -46,6 +46,7 @@ deleting songs
 logging all server responses
 
 📚 Available Client Operations
+
 1. GET /songs?limit={limit}
 
 Fetches a list of songs with a limit.
@@ -95,6 +96,7 @@ Deletes a song using a query parameter.
 7. DELETE /songs/{id}
 
 Deletes a song using the path variable.
+
 
 public record SongResponseDto(String name, String artist) { }
 
@@ -148,6 +150,22 @@ PUT
 DELETE
 
 requests and prints results using log.info(...).
+
+📎 Purpose of the Project
+
+This project was created as a homework assignment to practice:
+
+REST client design
+
+DTO mapping
+
+Feign usage
+
+API integration
+
+Clean code naming and client design patterns
+
+It also serves as a portfolio-friendly example of Spring Boot → REST API integration.
 
 
 
